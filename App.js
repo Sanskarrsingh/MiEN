@@ -113,7 +113,7 @@ class App extends Component {
         { route === 'home'
           ? <div>
               <Logo />
-              <ParticlesBg type="" bg={true} />
+              <ParticlesBg type="cobweb" bg={true} />
               <Rank
                 name={this.state.user.name}
                 entries={this.state.user.entries}
